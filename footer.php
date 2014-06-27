@@ -7,35 +7,46 @@
                                                        
 -->
 <!--footer-->	
-<footer>	
-<div class="panel panel-primary">
-<div class="panel-heading">
-<h1 class="panel-title" ><b>关于本站</b></h1>
-</div>
-<div class="panel-body">
-<p>
-<br>
-<a href="http://www.anchowee.nets.hk">本站图片感谢七牛云存储提供寄存，站长联系方式：QQ：529238084  Email:anchowee@163.com
-</a>
-<br>
-<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=529238084&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:529238084:52" alt="QQ留言" title="点击这里给我发消息"/></a>
-</p>
-<br>
-<p>
-<a>吾日弎省吾身,为涅槃而坚持。
-</a>
-<span class="description"><?php $this->options->description() ?></span>
-<?php $this->footer(); ?>
-<li>
-      <a href="<?php $this->options->feedUrl(); ?>">RSS订阅</a>
-</li>
-</p>
-<script type="text/javascript">
-var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F80d2c001f94db28c2ad7e1d2e236b501' type='text/javascript'%3E%3C/script%3E"));
-</script>
-</div>
-</div>
+<footer>
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    <h4 class="list-group-item-heading">Contact</h4>
+  </a>
+  <p class="text-center">        
+
+  <strong>联系方式：QQ：529238084  Email:anchowee@163.com</strong>
+   </p>
+  <p class="text-center">
+   QQ联系：<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=529238084&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:529238084:52" alt="QQ留言" title="点击这里给我发消息"/></a>
+  </p>
+  <p class="text-left">
+  <a class="contacts" href="https://twitter.com/anchoweecn">twitter</a>
+  </p>
+    <p class="text-left">
+  <a class="contacts" href="https://www.facebook.com/rnchong.wei">Facebook</a>
+  </p>
+  <p class="text-left">
+  <a class="contacts" href="http://weibo.com/anchowee">Weibo</a>
+  </p>
+  <div class="description">
+  <p class="text-left">
+  <span class="glyphicon glyphicon-thumbs-up"></span>吾日弎省吾身,为涅槃而坚持。
+  </p>
+  <p class="text-left">
+  <span class="description"><?php $this->options->description() ?>
+  <script type="text/javascript">
+   var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+  document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F80d2c001f94db28c2ad7e1d2e236b501'    type='text/javascript'%3E%3C/script%3E"));
+  </script>
+  </span>
+  <?php $this->footer(); ?>
+  <a id="today"></a>
+  </p>
+  </div>
+  <div class="tdscanle">
+<img src="http://qdownloads.qiniudn.com/anchowee.png" width="250" height="250" alt="anchowee" class="img-rounded">  
+  </div>
+ </footer>
 <!--------------------繁简互换脚本------------------------------   
 	<script type="text/javascript"
 	src="http://gamux.org/wp-content/themes/gamuxtheme-0.1alpha/js/tw_cn.js"></script>
@@ -49,6 +60,5 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
 	translateInitilization();
 	</script>
 --> 
-<a id="today"></a>
 </body>
 </html>

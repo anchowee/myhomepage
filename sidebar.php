@@ -92,9 +92,9 @@ vertical-align:middle}
 
 <!--/*statistic the all tags*/-->
 <div class="section highlight" >
-<h2><span class="label label-success"><?php _e('云标签'); ?></span></h2>
-<ul>
-<?php $this->widget('Widget_Metas_Tag_Cloud')->parse('<a class="cloud_lab" href="{permalink}">{name}{{count}}</a>'); ?>
+<h2><span class="label label-success"><?php _e('云端标签'); ?></span></h2>
+<ul class="tagslist">
+<?php $this->widget('Widget_Metas_Tag_Cloud')->parse('<a class="cloud_lable" href="{permalink}">{name}{{count}}</a>'); ?>
 </ul>
 </div>
         <!--/*the recently post*/-->
@@ -129,7 +129,7 @@ vertical-align:middle}
                  <div class="section highlight">
 		<ul class="list-group">
 		<a href="" title="Anchowee工作室"><img src="http://qdownloads.qiniudn.com/anchowee.png" width="250" height="250" alt="anchowee" class="img-rounded"></a>
-<!--<?php $this->options->themeUrl('images/light.gif'); ?>-->
+<!--<?php $this->options->themeUrl('pic/light.gif'); ?>-->
 		
 		
 		<!--<h3><span class="label label-default"><?php $this->options->description() ?></span></h3>-->

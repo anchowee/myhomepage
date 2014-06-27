@@ -12,9 +12,10 @@
  ?>
 	<div id="content">
 	<?php while($this->next()): ?>
-                <a href="<?php $this->permalink() ?>"></a>
+                
 		<section class="post">
-			<h2 class="entry_title"><a href="<?php $this->permalink() ?>"><div class="page-header"><h1><?php $this->title() ?></h1></div></a></h2>
+                         <div class="page-header">
+			<h2 class="entry_title"><a href="<?php $this->permalink() ?>"><h1><?php $this->title() ?></h1></a></h2></div>
 
 			<p class="entry_data">
 
