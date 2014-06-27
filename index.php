@@ -4,7 +4,7 @@
  * 
  * @package anchowee html5
  * @author anchowee
- * @version 0.1
+ * @version 0.1 --beta version--
  * @link http://www.overanchowee.ml
  */
 
@@ -12,8 +12,10 @@
  ?>
 	<div id="content">
 	<?php while($this->next()): ?>
+                <a href="<?php $this->permalink() ?>"></a>
 		<section class="post">
 			<h2 class="entry_title"><a href="<?php $this->permalink() ?>"><div class="page-header"><h1><?php $this->title() ?></h1></div></a></h2>
+
 			<p class="entry_data">
 
 				<span class="label label-danger"><?php _e('作者：'); ?><?php $this->author(); ?></span>
@@ -21,8 +23,9 @@
 				<span class="label label-info"><?php _e('分类：'); ?><?php $this->category(','); ?></span>
 				<a href="<?php $this->permalink() ?>#comments"><span class="label label-info"><?php $this->commentsNum('No Comments', '1 Comment', '%d Comments'); ?></span></a>
 			</p>
-                 <!--$this->content('read more...'); to remodify excerpt()-->
-                 <div class="con"><?php $this->excerpt(1500, '    ..........'); ?></div>
+                 <!--$this->content('read more...'); to remodify excerpt() excerpt(1500, '    ..........');-->
+                 <!--beta version-->
+                 <div class="con"><?php $this->excerpt(1500, ''); ?><a class="label label-danger" href="<?php $this->permalink() ?>">... 阅读全文 »</a></div>
 		</section>
 	<?php endwhile; ?>
 <!--next page-->

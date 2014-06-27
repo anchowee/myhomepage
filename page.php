@@ -33,12 +33,12 @@
                          </div>
 <script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=1&amp;lang=zh"></script><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC0.js"></script>
  <?php $this->need('comments.php'); ?>
-<div class="more">显示余下全文</div> 
             </div>
+
            </section>
                  
 
-                
+         
          <?php $this->need('sidebar.php'); ?>
 	<?php $this->need('footer.php'); ?>
 

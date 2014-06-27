@@ -75,9 +75,18 @@ vertical-align:middle}
 </div>
 <!--calendar-->
 <div class="section highlight" >
-<h2><span class="label label-success"><?php _e('打更人报时'); ?></span></h2>
+<h2><span class="label label-success"><?php _e('打更人'); ?></span></h2>
 <ul>
-<li class="list-group-item"><p class="label label-warning" id="today"></p></li>
+<iframe name="weather_inc" src="http://tianqi.xixik.com/cframe/7" style="border:solid 1px #7ec8ea"  height="90" width="273px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+<div style="overflow:hidden; height:67px;">
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="100%" height="100%" id="xt_home_map" align="middle">
+	<param name="allowScriptAccess" value="sameDomain">
+	<param name="allowFullScreen" value="false">
+	<param name="movie" value="http://qdownloads.qiniudn.com/clock.swf"><param name="quality" value="high"><param name="bgcolor" value="#ffffff">
+	<param name="wmode" value="transparent">
+	<embed src="http://qdownloads.qiniudn.com/clock.swf" quality="high" bgcolor="#ffffff" width="100%" height="100%" wmode="transparent" name="xt_home_map" align="middle" allowscriptaccess="sameDomain" allowfullscreen="false" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer_cn">
+</object>
+</div>
 </ul>
 </div>
 
@@ -85,7 +94,7 @@ vertical-align:middle}
 <div class="section highlight" >
 <h2><span class="label label-success"><?php _e('云标签'); ?></span></h2>
 <ul>
-<?php $this->widget('Widget_Metas_Tag_Cloud')->parse('<a href="{permalink}">{name}{{count}}</a>'); ?>
+<?php $this->widget('Widget_Metas_Tag_Cloud')->parse('<a class="cloud_lab" href="{permalink}">{name}{{count}}</a>'); ?>
 </ul>
 </div>
         <!--/*the recently post*/-->
@@ -119,7 +128,8 @@ vertical-align:middle}
 <!--global webabout-->
                  <div class="section highlight">
 		<ul class="list-group">
-		<a href="" title="Anchowee工作室"><img src="<?php $this->options->themeUrl('images/light.gif'); ?>" width="250" height="250" alt="anchowee" class="img-rounded"></a>
+		<a href="" title="Anchowee工作室"><img src="http://qdownloads.qiniudn.com/anchowee.png" width="250" height="250" alt="anchowee" class="img-rounded"></a>
+<!--<?php $this->options->themeUrl('images/light.gif'); ?>-->
 		
 		
 		<!--<h3><span class="label label-default"><?php $this->options->description() ?></span></h3>-->
@@ -137,6 +147,9 @@ glyphicon glyphicon-arrow-right"></span><?php _e('进入后台'); ?> (<?php $thi
                 <li class="list-group-item"><a href="http://www.ubuntu.com">Ubuntu</a></li>
                 <li class="list-group-item"><a title="博客可能造成消极影响" href="http://www.awflasher.com/blog/archives/1048"><img src="http://aw.awflasher.com/b/dangerblog.gif"
 /></a></li>
+                <li class="list-group-item"><a href="https://twitter.com/anchoweecn">我的twitter</a></li>
+                <li class="list-group-item"><a href="http://cozylife.tk">校园网Wifi版本</a></li>
+                
             </ul>
 		
              </div>

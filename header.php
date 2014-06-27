@@ -4,9 +4,10 @@
   ___  __  __   ___ __  __   ___   __    __  ____  ____
  // \\ ||\ ||  //   ||  ||  // \\  ||    || ||    ||   
  ||=|| ||\\|| ((    ||==|| ((   )) \\ /\ // ||==  ||== 
- || || || \||  \\__ ||  ||  \\_//   \V/\V/  ||___ ||___
+ || || || \||  \\__ ||  ||  \\_//   \V/\V/  ||___ ||___    generator:Anchowee core module.
 
 Welcome !
+--beta version--
 源代码请联系：QQ529238084
                                                        
 -->
@@ -15,15 +16,20 @@ Welcome !
 <!--欢迎来到我的博客！-->
 <html>
 <head>
+<!--global varible-->
 <meta http-equiv="content-type" content="text/html; charset=<?php $this->options->charset(); ?>" />
 <meta name="keywords" content="Anchowee,Linux,Linux,JavaScript,Web,blog">
-<!--<meta http-equiv="refresh" content="120">-->
-<meta name="author" content="Designer:anchowee">
+<!--<meta http-equiv="refresh" content="120"> every 120s refresh again-->
+<meta name="author" content="Designer:anchowee@163.com">
+<Meta name="Robots" Content="All|Follow">
+<Meta http-equiv="Webkit/Firefox/Chrome/IE9" Content="Generator">
 <meta name="description" content="Anchowee blog devote my mind to open-source.">
+<Meta name="Generator" Content="Vim|FrontPage|Bash shell|Emacs">
+
 <title><?php $this->archiveTitle(" &raquo; ",""," - "); ?><?php $this->options->title(); ?></title>
 <link rel="shorcut icon" href="<?php $this->options->themeUrl('favicon.ico'); ?>" type="image/x-ico" />
 
-<!--bootstrap-->
+<!--bootstrap and jquery-->
 <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
 <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
@@ -31,9 +37,9 @@ Welcome !
 <script src="http://cdn.bootcss.com/Snowstorm/20131208/snowstorm-min.js"></script>
 <!--self-->
 <!--effects.js-->
-
+<link href='http://fonts.useso.com/css?family=Open+Sans|Roboto' rel='stylesheet' type='text/css'>
 <script src="http://qdownloads.qiniudn.com/effect.js"></script>
-<!--snowstorm-->
+<!--snowstorm configuration-->
 <script type="text/javascript">
 snowStorm.snowColor = '#99ccff'; // blue-ish snow!?
 snowStorm.flakesMaxActive = 45;  // show more snow on screen at once
@@ -41,7 +47,25 @@ snowStorm.useTwinkleEffect = true; // let the snow flicker in and out of view
 snowStorm.followMouse = true;
 snowStorm.freezeOnBlur = true;
 </script>
+<script type="text/javascript"> 
+var browser=navigator.appName 
+var b_version=navigator.appVersion 
+var version=b_version.split(";"); 
+var trim_Version=version[1].replace(/[ ]/g,""); 
+if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE6.0") { 
+alert("浏览器版本过低！建议换上IE9及以上版本！"); 
+} 
+else if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE7.0") { 
+alert("浏览器版本过低！建议换上IE9及以上版本！"); 
+} 
+else if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE8.0") { 
+alert("浏览器版本过低！建议换上IE9及以上版本！"); 
+} 
+else if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE9.0") { 
 
+} 
+</script>
+<!--IE  support,but the effect are so bad-->
 <!--[if lt IE 9]>
   <script src="http://qdownloads.qiniudn.com/html5.js"></script>
 <![endif]-->
@@ -74,9 +98,7 @@ snowStorm.freezeOnBlur = true;
       </a>
    </li>
    <?php endwhile; ?>
-   <li>
-      <a href="<?php $this->options->feedUrl(); ?>">RSS订阅</a>
-   </li>
+
 </ul>
 </nav>
 </header>

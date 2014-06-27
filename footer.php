@@ -22,10 +22,13 @@
 </p>
 <br>
 <p>
-<a>吾日弎省吾身，坚持、奋斗、锻炼身体。
+<a>吾日弎省吾身,为涅槃而坚持。
 </a>
 <span class="description"><?php $this->options->description() ?></span>
 <?php $this->footer(); ?>
+<li>
+      <a href="<?php $this->options->feedUrl(); ?>">RSS订阅</a>
+</li>
 </p>
 <script type="text/javascript">
 var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
@@ -33,7 +36,7 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
 </script>
 </div>
 </div>
-<!--------------------繁简互换脚本------------------------------->   
+<!--------------------繁简互换脚本------------------------------   
 	<script type="text/javascript"
 	src="http://gamux.org/wp-content/themes/gamuxtheme-0.1alpha/js/tw_cn.js"></script>
 	<script type="text/javascript">
@@ -46,5 +49,6 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
 	translateInitilization();
 	</script>
 --> 
+<a id="today"></a>
 </body>
 </html>
