@@ -71,7 +71,7 @@ div.demo_section_top{border:none;padding-bottom:0;}#content
 div.demo_section_mid{border:none;padding:0;}#content 
 div.demo_section_bot{padding-top:0;}.entry_data,.tags{color:#666;font-size:12px;margin-left:5%;}.entry_data a{}.entry_data 
 span{margin-right:4px;padding-right:7px;border-right:1px solid 
-#A0A600;}div.page-header{margin-left: 20%;
+#A0A600;display: inline-block;}div.page-header{margin-left: 20%;
 margin-right: 20%;}ol.page-navigator{color:#666;list-style:none;font-size:20px;line-heigh
 t:30px;font-family:"Lucida Grande",Verdana,'Open 
 Sans',sans-serif,'Roboto',sans-serif;margin:-10px auto 0 
