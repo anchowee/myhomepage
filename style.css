@@ -1,7 +1,8 @@
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,ab
 br,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,str
 ike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,ca
-ption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-wei
+ption,tbody,tfoot,thead,tr,th,td{overflow-y: hidden;
+overflow-x: auto;margin:0;padding:0;border:0;outline:0;font-wei
 ght:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-alig
 n:baseline;}:focus{outline:none;}body{line-height:1;}a{color:#009be3;}a:hover{c
 olor:#009be3;}p{margin-bottom:1em;}a:active{color:#FF0000;text-decoration:under
