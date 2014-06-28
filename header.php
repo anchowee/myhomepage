@@ -62,7 +62,7 @@ else if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE8.0") {
 alert("浏览器版本过低！建议换上IE9及以上版本！"); 
 } 
 else if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE9.0") { 
-
+alert("浏览器版本过低！建议换上IE9及以上版本！");
 } 
 </script>
 <!--IE  support,but the effect are so bad-->
@@ -92,7 +92,7 @@ else if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE9.0") {
    </li> 
    <?php $this->widget('Widget_Contents_Page_List')->to($pages); ?>
    <?php while($pages->next()): ?>
-   <li <?php if($this->is('page', $pages->slug)): ?> class="current"<?php endif; ?> >
+   <li class="lstnav" <?php if($this->is('page', $pages->slug)): ?> class="current"<?php endif; ?> >
       <a href="<?php $pages->permalink(); ?>">
       <?php $pages->title(); ?>
       </a>
