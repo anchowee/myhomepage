@@ -77,6 +77,8 @@ vertical-align:middle}
 <div class="section highlight" >
 <h2><span class="label label-success"><?php _e('打更人'); ?></span></h2>
 <ul>
+
+<?php dokuwiki?>
 <iframe name="weather_inc" src="http://tianqi.xixik.com/cframe/7" style="border:solid 1px #7ec8ea"  height="90" width="273px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 <div style="overflow:hidden; height:67px;">
 <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="100%" height="100%" id="xt_home_map" align="middle">

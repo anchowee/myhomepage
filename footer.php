@@ -41,6 +41,43 @@
   </span>
   <?php $this->footer(); ?>
   <a id="today"></a>
+  <a><?php
+function getip() {
+    if (getenv ( "http_client_ip" ) && strcasecmp ( getenv ( "http_client_ip" ), "unknown" ))
+        $ip = getenv ( "http_client_ip" );
+    else if (getenv ( "http_x_forwarded_for" ) && strcasecmp ( getenv ( "http_x_forwared_for" ), "unknown" ))
+        $ip = getenv ( "http_x_forwarded_for" );
+    else if (getenv ( "remote_addr" ) && strcasecmp ( getenv ( "remote_addr" ), "unknown" ))
+        $ip = getenv ( "remote_addr" );
+    else if (isset ( $_SERVER ["REMOTE_ADDR"] ) && $_SERVER ["REMOTE_ADDR"] && strcasecmp ( $_SERVER ["REMOTE_ADDR"], "unknown" ))
+        $ip = $_SERVER ["REMOTE_ADDR"];
+    else
+        $ip = "unknown";
+    return ($ip);
+}
+function num(){
+$user_online = 'count.txt';
+touch ( $user_online );
+$timeout = 30;
+$user_arr = file_get_contents ( $user_online );
+$user_arr = explode ( '#', rtrim ( $user_arr, '#' ) );
+$temp = array ();
+foreach ( $user_arr as $value ) {
+    $user = explode ( ",", trim ( $value ) );
+    if (($user [0] != getip ()) && ($user [1] > time ())) {
+        array_push ( $temp, $user [0] . "," . $user [1] );
+    }
+}
+array_push ( $temp, getip () . "," . (time () + ($timeout)) . '#' );
+$user_arr = implode ( "#", $temp );
+$fp = fopen ( $user_online, "w" );
+flock ( $fp, LOCK_EX );
+fputs ( $fp, $user_arr );
+flock ( $fp, LOCK_UN );
+fclose ( $fp );
+echo "当前有" . count ( $temp ) . "人在线";    
+}
+?></a>
   </p>
   </div>
   <div class="tdscanle">

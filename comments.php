@@ -23,10 +23,7 @@
             <div class="cancel-comment-reply">
             <?php $comments->cancelReply(); ?>
             </div>
-            
-			<h4 id="response"><span class="glyphicon glyphicon-thumbs-up"></span>
-<button type="button" class="btn btn-info"><?php _e('添加新评论'); ?> &raquo;</button>
-</h4>
+
 			<form method="post" action="<?php $this->commentUrl() ?>" id="comment_form">
                 <?php if($this->user->hasLogin()): ?>
 				<p>
@@ -35,21 +32,21 @@
 <button type="button" class="btn btn-danger"><?php _e('退出'); ?> &raquo;</button>
 </a></p>
                 <?php else: ?>
-				<p>
+				<p class="commentls">
                     <label for="author"><?php _e('您的称呼'); ?><span class="required">*</span></label>
 					<input type="text" name="author" id="author" class="text" size="15" value="<?php $this->remember('author'); ?>" />
 				</p>
-				<p>
+				<p class="commentls">
                     <label for="mail"><?php _e('电子邮件'); ?><?php if ($this->options->commentsRequireMail): ?><span class="required">*</span><?php endif; ?></label>
 					<input type="text" name="mail" id="mail" class="text" size="15" value="<?php $this->remember('mail'); ?>" />
 				</p>
-				<p>
+				<p class="commentls">
                     <label for="url"><?php _e('您的主页'); ?><?php if ($this->options->commentsRequireURL): ?><span class="required">*</span><?php endif; ?></label>
 					<input type="text" name="url" id="url" class="text" size="15" value="<?php $this->remember('url'); ?>" />
 				</p>
                 <?php endif; ?>
-				<p><textarea rows="5" cols="50" name="text" class="textarea"><?php $this->remember('text'); ?></textarea></p>
-				<p><input type="submit" value="<?php _e('提交评论'); ?>" class="submit btn" /></p>
+				<p class="commentls"><textarea rows="5" cols="50" name="text" class="textarea"><?php $this->remember('text'); ?></textarea></p>
+				<p class="commentls"><input type="submit" value="<?php _e('提交评论'); ?>" class="submit btn" /></p>
 			</form>
             </div>
             <?php else: ?>

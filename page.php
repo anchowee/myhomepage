@@ -17,8 +17,10 @@
 			
 			<p class="entry_data">
 				<span class="label label-danger"><?php _e('作者：'); ?><?php $this->author(); ?></span>
-				<span class="label label-primary><?php _e('发布时间：'); ?><?php $this->date('F j, Y'); ?></span>
-                        </p>
+				<span class="label label-primary"><?php _e('发布时间：'); ?><?php $this->date('F j, Y'); ?></span>
+				<span class="label label-primary"><?php _e('分类：'); ?><?php $this->category(','); ?></span>
+
+			</p>
 
 
 			<div class="con">

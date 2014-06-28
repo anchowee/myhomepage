@@ -7,7 +7,7 @@ n:baseline;}:focus{outline:none;}body{line-height:1;}a{color:#009be3;}a:hover{c
 olor:#009be3;}p{margin-bottom:1em;}a:active{color:#FF0000;text-decoration:under
 line;}ul{margin:0;padding:0 0 0 20px;}.dev_guide #content 
 ul{list-style-type:disc;}h2{color:#a0a600;margin:0 0 20px 
-0;font-size:200%;line-height:140%;font-weight:normal;}h2 
+0;font-size:200%;line-height:140%;font-weight:normal;text-align: center;}h2 
 a{color:#a0a600;text-decoration:none;}h2 
 a:hover{color:#009be3;}h4{color:#666;font-weight:bold;font-size:140%;margin-top:1em;margin-bottom:.5em;}h5{color:#a0a600;font-weight:bold;font-size:120%;margi
 n-top:1em;margin-bottom:.5em;}h6{color:#666;font-size:120%;text-decoration:unde
@@ -97,7 +97,7 @@ cite.fn{font-style:normal;}.comment-body{overflow:hidden;}img.avatar{float:left;
 .cancel-comment-reply{float:right;font-size:11px;}.respond 
 .cancel-comment-reply a{border:none;color:#aaa;}.respond 
 .cancel-comment-reply a:hover{color:#444;}#comment_form 
-label{font-size:12px;color:#555;font-weight:bold;}#comment_form 
+label{font-size:12px;color:#555;font-weight:bold;float: left;}#comment_form 
 label .required{color:#C04E37;padding-left:5px;font-size:14px;}#comment_form 
 textarea{width:80%;height:180px;}ol#comment_list li .respond 
 .text{_width:400px;}ol#comment_list li .respond 
@@ -123,10 +123,13 @@ pre{width:243px;float:right;margin:0;}ul.thin+img{float:right;margin:-20px 0
 splay:block;content:"";position:absolute;}body{background-color:#088A85;color:#
 232B21;margin:1px;padding:2px;font-family:Arial,Helvetica,sans-serif;font-size:19px;background-image:url('
 http://qdownloads.qiniudn.com/11385343fbf2b211f62f4f05ca8065380cd78e7c.jpg
-');}.navbar-inverse{text-shadow:0 -1px 0 rgba(0,0,0,.15);background-color:#333333;border-color:#463265;}div.bshare-custom.icon-medium{margin-left:2%;}h4#response{margin-left:2%;}div.con{word-spacing:5px;text-indent:40px;padding
+');}.navbar-inverse{text-shadow:0 -1px 0 rgba(0,0,0,.15);background-color:#333333;border-color:#463265;}div.bshare-custom.icon-medium{margin-left:30%;position: relative;
+top: 10px;}h4#response{margin-left:2%;}div.con{word-spacing:5px;text-indent:40px;padding
 -left:5px;padding-right:8px;padding-top:3px;padding-left:30px;font-size:1.2em;font-family:sans-serif;}section.post{background-image:url(
 http://qdownloads.qiniudn.com/back.jpg);border-radius:1%;}.panel-body{padding:5
 %;}a.cloud_lab{background-color:#C73503;color:#912424;margin:0px 
 1px;padding:3px 6px;border:1px solid #D2D2D2;background-color:blanchedalmond;font-weight:normal;text-decoration:none;}input,button,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit;border-style:sloid;border:5px sloid #990066;border:3px solid #990066;}p.entry_data{margin-left:2%;}a.contacts {font-size: 10px;text-align: -webkit-auto;float: right;background: #301A1A;width: 5%;text-align: center;/* background-color: aqua; */text-shadow: 5px 5px 5px #3DDB0B;color: gold;border-radius: 40%;box-shadow: 5px 5px 3px #522727;}a#today {font-size:20px;padding: 10px 10px;float: left;margin-bottom: 1%;border: 2px solid;border-radius: 40%;/* margin: 50% auto; */margin-left: 30%;margin-right: auto;margin-bottom: auto;background: rgb(65, 225, 103);color: rgb(228, 139, 89);}
 div.tdscanle {float: left;margin-left: 2%;/* top: 50px; */margin-top: -40px;
-}a.cloud_lable {padding: 2px 2px 7px 4px;text-align: center;font-family: monospace;font-size: 15px;background-color: rgb(75, 53, 194);box-shadow: 0px 0px 9px #E4842B;border-radius: 30%;}
+}a.cloud_lable {padding: 2px 2px 7px 4px;text-align: center;font-family: monospace;font-size: 15px;background-color: rgb(75, 53, 194);box-shadow: 0px 0px 9px #E4842B;border-radius: 30%;}div.tags {float: right;position: relative;width: 20%;height: 25px;}div#comment_studio {height: 50px;position: relative;}div.jumbotron {
+background-color: inherit;
+}
