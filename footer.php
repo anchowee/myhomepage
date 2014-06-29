@@ -43,7 +43,7 @@
     <div class="level-3"></div>
 </div>
 <script language="javascript" type="text/javascript" src="http://lib.sinaapp.com/js/jquery/1.6.2/jquery.min.js">"></script>
-<script language="javascript" type="text/javascript" src="./usr/themes/Anchowee/lib/btop.js"></script>
+<script language="javascript" type="text/javascript" src="http://www.overanchowee.ml/usr/themes/Anchowee/lib/btop.js"></script>
 </footer>
 <!--------------------繁简互换脚本------------------------------   
 	<script type="text/javascript"
