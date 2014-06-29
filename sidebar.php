@@ -9,7 +9,6 @@
 <aside>
 <!--copright 2014 by anchowee -->
 <!--based on typecho-->
-<!--creat all widget for sidebar-->
 <!--sougou or 360 search egine-->
 		<div class="section search">
 
@@ -85,9 +84,23 @@
 <!--/*statistic the all tags*/-->
 <div class="section highlight" >
 <h2><span class="label label-success"><?php _e('云端标签'); ?></span></h2>
-<ul class="tagslist">
-<?php $this->widget('Widget_Metas_Tag_Cloud')->parse('<a class="cloud_lable" href="{permalink}">{name}{{count}}</a>'); ?>
-</ul>
+<div id="tagsList">
+<script type="text/javascript" src="http://qdownloads.qiniudn.com/tags.js"></script>
+<style type="text/css">
+div#tagsList {
+position: relative;
+width: 200px;
+height: 200px;
+margin-left: 16%;
+margin: 40px auto 0;
+margin-bottom: 40px;
+display: block;
+}
+div#tagsList a {position:absolute; top:0px; left:0px; font-family: Microsoft YaHei; color:#fff; font-weight:bold; text-decoration:none; padding: 3px 6px; }
+div#tagsList a:hover { color:#FF0000; letter-spacing:2px;}
+</style>
+<?php $this->widget('Widget_Metas_Tag_Cloud')->parse('<a href="{permalink}" title="{name}{{count}}">{name}{{count}}</a>'); ?>
+</div>
 </div>
         <!--/*the recently post*/-->
 		<div class="section highlight" >

@@ -1,7 +1,7 @@
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,ab
 br,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,str
 ike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,ca
-ption,tbody,tfoot,thead,tr,th,td{border:0;outline:0;font-wei
+ption,tbody,tfoot,thead,tr,th,td{font-family: inherit;border:0;outline:0;font-wei
 ght:inherit;font-style:inherit;}:focus{outline:none;}body{line-height:1;}a{color:#009be3;}a:hover{c
 olor:#009be3;}p{margin-bottom:1em;}ul{margin:0;padding:0 0 0 20px;}.dev_guide #content 
 ul{list-style-type:disc;}h2{color:#a0a600;margin:0 0 20px 
@@ -11,7 +11,7 @@ a:hover{color:#009be3;}h4{color:#666;font-weight:bold;font-size:140%;margin-top:
 n-top:1em;margin-bottom:.5em;}h6{color:#666;font-size:120%;text-decoration:unde
 rline;margin-top:1em;margin-bottom:.5em;}strong{font-weight:bold;font-family: Andada;}a 
 img{border:none;outline:none;}#container{padding:0 10px 20px 10px;margin:0 
-auto;width:100%;overflow:hidden;}nav.navbar.navbar-inverse{margin-left:20px;margin-right:20px;font-family: Courgette;}header{display:block;padding-top:1px;background-color:#27AE60;border-radius:5px;}h2.entry_title{margin-left:10px;}header > 
+auto;width:100%;overflow:hidden;}nav.navbar.navbar-inverse{margin-left:20px;margin-right:20px;font-family: Courgette;}header{display:block;padding-top:1px;background-color:#27AE60;border-radius:5px;font-size: 20px;}h2.entry_title{margin-left:10px;}header > 
 a{display:block;width:300px;font-family: Andada;}#content{width:75%;float:left;font-size:0.8em;marg
 in-bottom:40px;padding-top:20px;}#content img.demo{float:right;margin:0 0 
 20px 20px;}.post  p 
@@ -116,7 +116,7 @@ pre{width:243px;float:right;margin:0;}ul.thin+img{float:right;margin:-20px 0
 20px 
 0;}.ralign{text-align:right;}*:after,*:before{display:block;content:"";position:absolute;}body{background-color:#2C3E50;margin:1px;padding:2px;}.navbar-inverse{text-shadow:0 -1px 0 rgba(0,0,0,.15);background-color:#333333;border-color:#463265;}div.bshare-custom.icon-medium{margin-left:30%;position: relative;
 top: 10px;}h4#response{margin-left:2%;}div.con{word-spacing:5px;text-indent:40px;padding
--left:5px;padding-right:8px;padding-top:3px;padding-left:30px;font-size:1.2em;font-family: Baumans;}section.post{background-image:url(
+-left:5px;padding-right:8px;padding-top:3px;padding-left:30px;font-size:1.6em;font-family: Baumans;}section.post{background-image:url(
 http://qdownloads.qiniudn.com/back.jpg);border-radius:1%;}.panel-body{padding:5
 %;}a.cloud_lab{background-color:#C73503;color:#912424;margin:0px 
 1px;padding:3px 6px;border:1px solid #D2D2D2;background-color:blanchedalmond;font-weight:normal;text-decoration:none;}input,button,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit;border-style:sloid;border:5px sloid #990066;border:3px solid #990066;}p.entry_data{margin-left:2%;}a.contacts {font-family: Andada;font-size: 10px;text-align: -webkit-auto;float: right;background: #301A1A;width: 5%;text-align: center;/* background-color: aqua; */text-shadow: 5px 5px 5px #3DDB0B;color: gold;border-radius: 40%;box-shadow: 5px 5px 3px #522727;}
@@ -124,7 +124,7 @@ div.tdscanle {float: left;margin-left: 2%;/* top: 50px; */margin-top: -40px;
 }a.cloud_lable {padding: 2px 2px 7px 4px;text-align: center;font-family: monospace;font-size: 15px;background-color: rgb(75, 53, 194);box-shadow: 0px 0px 9px #E4842B;border-radius: 30%;display: inline-block;}div.tags {float: right;position: relative;width: 20%;height: 25px;}div#comment_studio {height: 50px;position: relative;}div.jumbotron {
 background-color: inherit;
 }iframe {display: inline-block;position: relative;overflow: hidden;height: 100%;width: 100%;}a img {min-width: 80px;max-width: 280px;position: relative;display: block;margin-left: 2%;
-margin-bottom: -1px;background-color: #fff;border: 1px solid #ddd;}
+margin-bottom: -1px;background-color: #fff;border: 1px solid #ddd;}p.text-left {margin-left: 2%;}
 /*repair*/
 li.lstnav {
 display: inline-block;
@@ -145,4 +145,5 @@ border:2px solid #3FB30E;outline:0;vertical-align:middle}
 #so360_keyword{ no-repeat right center}
 font-weight:bold;font:bold 14px arial;padding:0;padding-top:3px\9;cursor:pointer;
 vertical-align:middle}
+
 /*a#today {font-size:20px;padding: 10px 10px;float: left;margin-bottom: 1%;border: 2px solid;border-radius: 40%; margin: 50% auto; margin-left: 30%;margin-right: auto;margin-bottom: auto;background: rgb(65, 225, 103);color: rgb(228, 139, 89);}*/

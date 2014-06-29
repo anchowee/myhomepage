@@ -1,0 +1,2 @@
+                 <!--$this->content('read more...'); to remodify excerpt() excerpt(1500, '    ..........');-->
+                 <!--beta version-->

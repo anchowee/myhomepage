@@ -1,11 +1,3 @@
-<!--designed by anchowee 2014-->
-<!--
-  ___  __  __   ___ __  __   ___   __    __  ____  ____
- // \\ ||\ ||  //   ||  ||  // \\  ||    || ||    ||   
- ||=|| ||\\|| ((    ||==|| ((   )) \\ /\ // ||==  ||== 
- || || || \||  \\__ ||  ||  \\_//   \V/\V/  ||___ ||___
-                                                       
--->
 <!--footer-->	
 <footer>
 <div class="list-group">
@@ -52,7 +44,6 @@
 </div>
 <script language="javascript" type="text/javascript" src="http://lib.sinaapp.com/js/jquery/1.6.2/jquery.min.js">"></script>
 <script language="javascript" type="text/javascript" src="./usr/themes/Anchowee/lib/btop.js"></script>
-
 </footer>
 <!--------------------繁简互换脚本------------------------------   
 	<script type="text/javascript"
@@ -67,5 +58,6 @@
 	translateInitilization();
 	</script>
 --> 
+
 </body>
 </html>

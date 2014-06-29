@@ -4,7 +4,7 @@
  * 
  * @package anchowee html5
  * @author anchowee
- * @version 0.1 --beta version--
+ * @version 0.1 --RC version--
  * @link http://www.overanchowee.ml
  */
 
@@ -24,8 +24,6 @@
 				<span class="label label-info"><?php _e('分类：'); ?><?php $this->category(','); ?></span>
 				<a href="<?php $this->permalink() ?>#comments"><span class="label label-info"><?php $this->commentsNum('No Comments', '1 Comment', '%d Comments'); ?></span></a>
 			</p>
-                 <!--$this->content('read more...'); to remodify excerpt() excerpt(1500, '    ..........');-->
-                 <!--beta version-->
                  <div class="con"><?php $this->excerpt(1500, ''); ?><a class="label label-danger" href="<?php $this->permalink() ?>">... 阅读全文 »</a></div>
                  <div class="bshare-custom icon-medium"><a title="分享到QQ空间" class="bshare-qzone"></a><a title="分享到新浪微博" class="bshare-sinaminiblog"></a><a title="分享到人人网" class="bshare-renren"></a><a title="分享到腾讯微博" class="bshare-qqmb"></a><a title="分享到网易微博" class="bshare-neteasemb"></a><a title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a><span class="BSHARE_COUNT bshare-share-count">0</span>             
 
