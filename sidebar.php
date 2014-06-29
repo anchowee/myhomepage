@@ -136,10 +136,8 @@ glyphicon glyphicon-arrow-right"></span><?php _e('进入后台'); ?> (<?php $thi
                     <li class="list-group-item"><a href="<?php $this->options->adminUrl('login.php'); ?>"><span class="glyphicon glyphicon-user"></span><?php _e('用户登陆'); ?></a></li>
                 <?php endif; ?>
                 <li class="list-group-item"><a href="http://www.anchowee.nets.hk">Anchowee</a></li>
-                <li class="list-group-item"><a href="http://www.ubuntu.com">Ubuntu</a></li>
-                <li class="list-group-item"><a title="博客可能造成消极影响" href="http://www.awflasher.com/blog/archives/1048"><img src="http://aw.awflasher.com/b/dangerblog.gif"
-/></a></li>
-                <li class="list-group-item"><a href="https://twitter.com/anchoweecn">我的twitter</a></li>
+                <li class="list-group-item"><a href="http://www.ubuntu.com">Ubuntu</a></li> 
+                <li class="list-group-item"><a href="https://twitter.com/anchoweecn">Twitter</a></li>
                 <li class="list-group-item"><a href="http://cozylife.tk">校园网Wifi版本</a></li>
                 
             </ul>

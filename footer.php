@@ -16,7 +16,7 @@
 
   <strong>联系方式：QQ：529238084  Email:anchowee@163.com</strong>
    </p>
-  <p class="text-center">
+  <p class="text-left">
    QQ联系：<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=529238084&site=qq&menu=yes"><img border="0" src="http://qdownloads.qiniudn.com/QQ.jpg" alt="QQ留言" title="点击这里给我发消息"/></a>
   </p>
   <p class="text-left">
