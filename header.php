@@ -23,6 +23,7 @@ Welcome !
 <meta name="author" content="Designer:anchowee@163.com">
 <Meta name="Robots" Content="All|Follow">
 <Meta http-equiv="Webkit/Firefox/Chrome/IE9" Content="Generator">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="description" content="Anchowee blog devote my mind to open-source.">
 <Meta name="Generator" Content="Vim|FrontPage|Bash shell|Emacs">
 
@@ -35,9 +36,10 @@ Welcome !
 <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" media="all" href="<?php $this->options->themeUrl('style.css'); ?>" />
 <script src="http://cdn.bootcss.com/Snowstorm/20131208/snowstorm-min.js"></script>
-<!--self-->
+<!--fonts-->
 <!--effects.js-->
 <link href='http://fonts.useso.com/css?family=Open+Sans|Roboto' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Andada|Baumans|Courgette|Crete+Round' rel='stylesheet' type='text/css'>
 <script src="http://qdownloads.qiniudn.com/effect.js"></script>
 <!--snowstorm configuration-->
 <script type="text/javascript">

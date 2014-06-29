@@ -7,8 +7,7 @@
                                                        
 -->
 <aside>
-<!---egine for global , useless for php url("jack wee")-->
-<!--copright 2014 by anchowee lts-->
+<!--copright 2014 by anchowee -->
 <!--based on typecho-->
 <!--creat all widget for sidebar-->
 <!--sougou or 360 search egine-->
@@ -28,15 +27,6 @@
 </table>
 --end---->
 
-<style type="text/css">
-#so360{white-space:nowrap}
-#so360 form{margin:0;padding:0}
-#so360_keyword{width:150px;height:24px;line-height:24px;font:14px arial;padding:2px 5px;margin-right:5px;
-border:2px solid #3FB30E;outline:0;vertical-align:middle}
-#so360_keyword{ no-repeat right center}
-font-weight:bold;font:bold 14px arial;padding:0;padding-top:3px\9;cursor:pointer;
-vertical-align:middle}
-</style>
 <div id="so360">
     <form action="http://www.so.com/s" target="_blank" id="so360form">
    <input type="text" autocomplete="off" name="q" id="so360_keyword">
@@ -79,7 +69,7 @@ vertical-align:middle}
 <ul>
 
 <?php dokuwiki?>
-<iframe name="weather_inc" src="http://tianqi.xixik.com/cframe/7" style="border:solid 1px #7ec8ea"  height="90" width="273px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+<iframe name="weather_inc" src="http://tianqi.xixik.com/cframe/7" ></iframe>
 <div style="overflow:hidden; height:67px;">
 <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="100%" height="100%" id="xt_home_map" align="middle">
 	<param name="allowScriptAccess" value="sameDomain">
@@ -130,7 +120,7 @@ vertical-align:middle}
 <!--global webabout-->
                  <div class="section highlight">
 		<ul class="list-group">
-		<a href="" title="Anchowee工作室"><img src="http://qdownloads.qiniudn.com/anchowee.png" width="250" height="250" alt="anchowee" class="img-rounded"></a>
+		<a href="" title="Anchowee工作室"><img src="http://qdownloads.qiniudn.com/anchowee.png" alt="anchowee" class="img-rounded"></a>
 <!--<?php $this->options->themeUrl('pic/light.gif'); ?>-->
 		
 		
