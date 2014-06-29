@@ -11,7 +11,7 @@ a:hover{color:#009be3;}h4{color:#666;font-weight:bold;font-size:140%;margin-top:
 n-top:1em;margin-bottom:.5em;}h6{color:#666;font-size:120%;text-decoration:unde
 rline;margin-top:1em;margin-bottom:.5em;}strong{font-weight:bold;font-family: Andada;}a 
 img{border:none;outline:none;}#container{padding:0 10px 20px 10px;margin:0 
-auto;width:100%;overflow:hidden;}nav.navbar.navbar-inverse{font-size: 1.3em;margin-left:20px;margin-right:20px;font-family: Courgette;}header{display:block;padding-top:1px;background-color:#27AE60;border-radius:5px;font-size: 20px;}h2.entry_title{margin-left:10px;}header > 
+auto;width:100%;overflow:hidden;}nav.navbar.navbar-inverse{margin-left:20px;margin-right:20px;font-family: Courgette;}header{display:block;padding-top:1px;background-color:#27AE60;border-radius:5px;font-size: 20px;}h2.entry_title{margin-left:10px;}header > 
 a{display:block;width:300px;font-family: Andada;}#content{width:75%;float:left;font-size:1.1em;margin-bottom:40px;padding-top:20px;}#content img.demo{float:right;margin:0 0 
 20px 20px;}.post  p 
 a{color:#256A84;padding-right:13px;bac
@@ -115,7 +115,7 @@ pre{width:243px;float:right;margin:0;}ul.thin+img{float:right;margin:-20px 0
 20px 
 0;}.ralign{text-align:right;}*:after,*:before{display:block;content:"";position:absolute;}body{background-color:#2C3E50;margin:1px;padding:2px;}.navbar-inverse{text-shadow:0 -1px 0 rgba(0,0,0,.15);background-color:#333333;border-color:#463265;}div.bshare-custom.icon-medium{margin-left:30%;position: relative;
 top: 10px;}h4#response{margin-left:2%;}div.con{word-spacing:5px;text-indent:40px;padding
--left:5px;padding-right:8px;padding-top:3px;padding-left:30px;font-size:1.6em;font-family: Baumans;}section.post{background-image:url(
+-left:5px;padding-right:8px;padding-top:3px;padding-left:30px;font-size:1.1em;font-family: Baumans;}section.post{background-image:url(
 http://qdownloads.qiniudn.com/back.jpg);border-radius:1%;}.panel-body{padding:5
 %;}a.cloud_lab{background-color:#C73503;color:#912424;margin:0px 
 1px;padding:3px 6px;border:1px solid #D2D2D2;background-color:blanchedalmond;font-weight:normal;text-decoration:none;}input,button,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit;border-style:sloid;border:5px sloid #990066;border:3px solid #990066;}p.entry_data{margin-left:2%;}a.contacts {font-family: Andada;font-size: 10px;text-align: -webkit-auto;float: right;background: #301A1A;width: 5%;text-align: center;/* background-color: aqua; */text-shadow: 5px 5px 5px #3DDB0B;color: gold;border-radius: 40%;box-shadow: 5px 5px 3px #522727;}
