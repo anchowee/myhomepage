@@ -17,7 +17,7 @@
   <strong>联系方式：QQ：529238084  Email:anchowee@163.com</strong>
    </p>
   <p class="text-center">
-   QQ联系：<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=529238084&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:529238084:52" alt="QQ留言" title="点击这里给我发消息"/></a>
+   QQ联系：<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=529238084&site=qq&menu=yes"><img border="0" src="http://qdownloads.qiniudn.com/QQ.jpg" alt="QQ留言" title="点击这里给我发消息"/></a>
   </p>
   <p class="text-left">
   <a class="contacts" href="https://twitter.com/anchoweecn">twitter</a>
@@ -50,8 +50,10 @@
     <div class="level-2"></div>
     <div class="level-3"></div>
 </div>
+<script language="javascript" type="text/javascript" src="http://lib.sinaapp.com/js/jquery/1.6.2/jquery.min.js">"></script>
 <script language="javascript" type="text/javascript" src="./usr/themes/Anchowee/lib/btop.js"></script>
- </footer>
+
+</footer>
 <!--------------------繁简互换脚本------------------------------   
 	<script type="text/javascript"
 	src="http://gamux.org/wp-content/themes/gamuxtheme-0.1alpha/js/tw_cn.js"></script>

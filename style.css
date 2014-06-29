@@ -1,9 +1,8 @@
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,ab
 br,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,str
 ike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,ca
-ption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-wei
-ght:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-alig
-n:baseline;}:focus{outline:none;}body{line-height:1;}a{color:#009be3;}a:hover{c
+ption,tbody,tfoot,thead,tr,th,td{border:0;outline:0;font-wei
+ght:inherit;font-style:inherit;}:focus{outline:none;}body{line-height:1;}a{color:#009be3;}a:hover{c
 olor:#009be3;}p{margin-bottom:1em;}ul{margin:0;padding:0 0 0 20px;}.dev_guide #content 
 ul{list-style-type:disc;}h2{color:#a0a600;margin:0 0 20px 
 0;font-size:200%;line-height:140%;font-weight:normal;text-align: center;font-family: Round;}h2 
@@ -115,7 +114,7 @@ New",monospace,serif;padding:10px;margin:10px 0;border:1px dashed
 !important;line-height:25px;}pre.snippet{height:200px;font-size:0.8em;}ul.thin+
 pre{width:243px;float:right;margin:0;}ul.thin+img{float:right;margin:-20px 0 
 20px 
-0;}.ralign{text-align:right;}*{padding:0;margin:0;border:0;}*:after,*:before{display:block;content:"";position:absolute;}body{background-color:#2C3E50;margin:1px;padding:2px;font-family:Arial,Helvetica,sans-serif;font-size:19px;}.navbar-inverse{text-shadow:0 -1px 0 rgba(0,0,0,.15);background-color:#333333;border-color:#463265;}div.bshare-custom.icon-medium{margin-left:30%;position: relative;
+0;}.ralign{text-align:right;}*:after,*:before{display:block;content:"";position:absolute;}body{background-color:#2C3E50;margin:1px;padding:2px;}.navbar-inverse{text-shadow:0 -1px 0 rgba(0,0,0,.15);background-color:#333333;border-color:#463265;}div.bshare-custom.icon-medium{margin-left:30%;position: relative;
 top: 10px;}h4#response{margin-left:2%;}div.con{word-spacing:5px;text-indent:40px;padding
 -left:5px;padding-right:8px;padding-top:3px;padding-left:30px;font-size:1.2em;font-family: Baumans;}section.post{background-image:url(
 http://qdownloads.qiniudn.com/back.jpg);border-radius:1%;}.panel-body{padding:5
@@ -124,7 +123,7 @@ http://qdownloads.qiniudn.com/back.jpg);border-radius:1%;}.panel-body{padding:5
 div.tdscanle {float: left;margin-left: 2%;/* top: 50px; */margin-top: -40px;
 }a.cloud_lable {padding: 2px 2px 7px 4px;text-align: center;font-family: monospace;font-size: 15px;background-color: rgb(75, 53, 194);box-shadow: 0px 0px 9px #E4842B;border-radius: 30%;display: inline-block;}div.tags {float: right;position: relative;width: 20%;height: 25px;}div#comment_studio {height: 50px;position: relative;}div.jumbotron {
 background-color: inherit;
-}iframe {display: inline-block;position: relative;overflow: hidden;height: 100%;width: 100%;}a img {max-width: 280px;position: relative;display: block;padding: 10px 15px;
+}iframe {display: inline-block;position: relative;overflow: hidden;height: 100%;width: 100%;}a img {min-width: 80px;max-width: 280px;position: relative;display: block;margin-left: 2%;
 margin-bottom: -1px;background-color: #fff;border: 1px solid #ddd;}
 /*repair*/
 li.lstnav {

@@ -40,7 +40,7 @@ Welcome !
 <!--effects.js-->
 <link href='http://fonts.useso.com/css?family=Open+Sans|Roboto' rel='stylesheet' type='text/css'>
 <link href='http://fonts.useso.com/css?family=Andada|Baumans|Courgette|Crete+Round' rel='stylesheet' type='text/css'>
-<script src="http://qdownloads.qiniudn.com/effect.js"></script>
+<script src="http://www.overanchowee.ml/usr/themes/Anchowee/lib/effect.js"></script>
 <!--snowstorm configuration-->
 <script type="text/javascript">
 snowStorm.snowColor = '#99ccff'; // blue-ish snow!?
