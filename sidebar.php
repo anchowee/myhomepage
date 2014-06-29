@@ -121,7 +121,7 @@
                  <div class="section highlight">
 		<ul class="list-group">
 		<a href="" title="Anchowee工作室"><img src="http://qdownloads.qiniudn.com/anchowee.png" alt="anchowee" class="img-rounded"></a>
-<!--<?php $this->options->themeUrl('pic/light.gif'); ?>-->
+<!--<?php $this->options->themeUrl('image/logo.png'); ?>-->
 		
 		
 		<!--<h3><span class="label label-default"><?php $this->options->description() ?></span></h3>-->
