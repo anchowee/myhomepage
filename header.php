@@ -7,8 +7,8 @@
  || || || \||  \\__ ||  ||  \\_//   \V/\V/  ||___ ||___    generator:Anchowee core module.
 
 Welcome !
---beta version--
-源代码请联系：QQ529238084
+version 0.1
+source code：QQ529238084
                                                        
 -->
 <!--copyright anchowee 2014-->
@@ -19,11 +19,11 @@ Welcome !
 <!--global varible-->
 <meta http-equiv="content-type" content="text/html; charset=<?php $this->options->charset(); ?>" />
 <meta name="keywords" content="Anchowee,Linux,Linux,JavaScript,Web,blog">
-<!--<meta http-equiv="refresh" content="120"> every 120s refresh again-->
+<!--<meta http-equiv="refresh" content="120"> every 120s refresh again
+<!-meta name="viewport" content="width=device-width, initial-scale=1" />-->
 <meta name="author" content="Designer:anchowee@163.com">
 <Meta name="Robots" Content="All|Follow">
 <Meta http-equiv="Webkit/Firefox/Chrome/IE9" Content="Generator">
-<meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="description" content="Anchowee blog devote my mind to open-source.">
 <Meta name="Generator" Content="Vim|FrontPage|Bash shell|Emacs">
 
@@ -64,7 +64,7 @@ else if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE8.0") {
 alert("浏览器版本过低！建议换上IE9及以上版本！"); 
 } 
 else if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE9.0") { 
-alert("浏览器版本过低！建议换上IE9及以上版本！");
+
 } 
 </script>
 <!--IE  support,but the effect are so bad-->

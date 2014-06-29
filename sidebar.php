@@ -6,7 +6,7 @@
  || || || \||  \\__ ||  ||  \\_//   \V/\V/  ||___ ||___
                                                        
 -->
-<aside>
+<div class="aside">
 <!--copright 2014 by anchowee -->
 <!--based on typecho-->
 <!--sougou or 360 search egine-->
@@ -156,4 +156,4 @@ glyphicon glyphicon-arrow-right"></span><?php _e('进入后台'); ?> (<?php $thi
             </ul>
 		
              </div>
-</aside><!-- end #sidebar sidebar.php-->
+</div><!-- end #sidebar sidebar.php-->
